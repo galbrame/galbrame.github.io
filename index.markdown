@@ -49,7 +49,7 @@ __________________
 * **University of Manitoba** ~ **2023** (expected)
   * Bachelor of Science (Computer Science)
 * **University of Manitoba** ~ **2009**
-  * Bachelor of Science in Agriculture (Animal Systems)|
+  * Bachelor of Science in Agriculture (Animal Systems)
 
 _________________
 #### ACHIEVEMENTS
