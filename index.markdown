@@ -1,9 +1,3 @@
-## Megan Galbraith
-_________________
-## CONTACT
-[meg_galbraith@hotmail.com](mailto:meg_galbraith@hotmail.com) | [www.github.com/galbrame](www.github.com/galbrame) | [www.linkedin.com/in/megan-galbraith](www.linkedin.com/in/megan-galbraith)  
-_________________
-
 TECHNICAL SKILLS|SOFT SKILLS
 ----------------|-----------
 Java|Communication
