@@ -1,8 +1,8 @@
-# How To Host a Resume on GitHub Pages
+# How To Host a Resume on GitHub Pages Using Jekyll & Git Bash
 
-Learn how to take your job search to the next level by hosting and formating your resume for free using Markdown, Jekyll, and GitHub Pages. This README will also endevour to impart some general principles of technical writing (from the perspective of Adrew Etter in _Modern Technical Writing_) that you can employ in your own projects.
+Learn how to take your job search to the next level by hosting and formatting your resume for free using Markdown, Jekyll, and GitHub Pages. Check out the [example page](https://www.galbrame.github.io) to see what your resume could look like! This README will also endeavour to impart some general principles of technical writing (from the perspective of Andrew Etter in _[Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)_) that you can employ in your own projects.
 
-Hosting your site won't just show off your resume to potential employers - it will show off your technical skills. It will be different than applying for a specific job, since you'll need to make a more general resume, but keep your overall audience in mind: prospective companies in your chosen field. One of Etter's key points in his book is knowing your audience before writing anything. Think about who could be reading your resume, what they will be looking to get out of reading your work.
+Hosting your own site won't just show off your resume to potential employers - it will show off your technical skills. As Etter extolls, writing webpages in html and xml is onerous at best, at best. Displaying your ability to create a webpage using modern tools like a static site generator and highly adaptable lightweight markup language will set you apart from other candidates. 
 
 
 ## PREREQUISITES
@@ -12,40 +12,37 @@ For this project, you will need:
   * If you aren't familiar with Markdown, see [More Resources](#more-resources) for a good tutorial and GFM reference
 * A Markdown editor (see [More Resources](#more-resources) for some suggestions)
 * A GitHub account
-* Jekyll (or an alternative static site generator)
-* Ruby<sup>[1](#notes)</sup> (version 2.5.0 or higher)
+* Jekyll<sup>[1](#notes)</sup> (or an alternative static site generator)
+* Ruby<sup>[2](#notes)</sup> (version 2.5.0 or higher)
 * Git Bash
-
-A little bit about my personal setup:
-* Operating System: Windows 10<sup>[2](#notes)</sup>
-* Mardown editor: IntelliJ IDEA Community
-* Ruby version: 2.7.4p191 (x64-mingw32)
-* Jekyll version: 4.2.1
-* Git Bash: [Git for Windows](https://gitforwindows.org/)
 
 
 ## STEPS
 
-### Step 1: Creating The Repository
+### Step 1: Creating The GitHub Repository
 
 1) We want our resume to be the landing page for our GitHub Pages account, so we'll need to make a new repository. After logging into GitHub, click on the "+" sign at the top right of the page. The "+" can be found on any GitHub page. Select "New repository" from the dropdown menu.
 
-2) If you have more than one option in the **Owner** dropdown, select the account you would like your resume associated with.
+    ![new repository dropdown menu](/images/newRepo.png)
+
+2) Select the account you would like your resume associated with under the **Owner** dropdown.
 
 3) In the repository name, type ```<user>.github.io```, where ```<user>``` is your username.
 
-4) Leave the description blank, unless you want the text to show up on your resume as well. Alternatively, you could just add the text to your resume.md file.
+4) Leave the description blank.
 
 5) Leave the repository as Public so that anyone will be able to find your new digital resume.
 
-6) Don't tick any of the initialize option checkboxes, since we will be adding all of the files we need ourselves.
+6) Don't tick any of the initialize option checkboxes, since we will be adding all of the files later.
+
+![create new repository menu](/images/newRepo2.png)
 
 
-### Step 2: Creating Your Site Locally
+### Step 2: Creating the Local Repository
 
-1) Create a local folder on your computer where your site's source files will be stored.
+1) Create a folder on your computer where your site's source files will be stored.
 
-2) Open Git Bash and navigate to the folder you made for your site's source files. _Note_: if any of the folders have a space in the name, you will need to put quotation marks around the folder name (double or single) or else Git Bash will think you are trying to give it extra arguments. Alternatively, you can use a backslash before the space, such that ```New Folder``` would be ```New\ Folder```.
+2) Open Git Bash and navigate to the folder<sup>[3](#notes)</sup>. 
 
 3) Initialize a local Git repository with the same name as the repository you made on GitHub, and change directory to the new repository.
    ```
@@ -53,44 +50,39 @@ A little bit about my personal setup:
    cd <username>.github.io
    ```
 
-5) We are going to use our gh-pages branch as our publishing source, so we will need to use checkout<sup>[3](#notes)</sup> to create and switch to that branch.
+5) We are going to use our gh-pages branch as our publishing source, so we will need to use checkout<sup>[4](#notes)</sup> to create and switch to that branch.
    ```git checkout --orphan gh-pages```
 
 6) Create a new Jekyll site, using
-   ```jekyll new --skip-bundle .```
-   * _NOTE_: the period is important because it denotes the current directory. If you forget it, yu will get "Error: You must specify a path."
+   ```jekyll new --skip-bundle .```<sup>[5](#notes)</sup>.
 
-7) Copy or move your resume markdown file into the _posts folder and delete the auto-generated example post.
+7) Delete the ```_posts``` and ```about.markdown``` from your new repository folder. They will just add clutter to your final product. 
 
-_NOTE_: Keep Git Bash open because you will use it again at the end of the next step.
+_NOTE_: Keep Git Bash open because you will use it again soon.
 
 
 ### Step 3: Prep Your Site for GitHub
 
-1) Open the Gemfile that Jekyll just made. If you are comfortable with Vi or Emacs, you can do it right from Git Bash. Or you can open it with an editor, such as IntelliJ, Visual Studio, Notepad++, or even just Notepad.
+1) Open the Gemfile. If you are comfortable with Vi or Emacs, you can do it right from Git Bash. Or you can open it with an editor, such as IntelliJ, Visual Studio, or Notepad++.
 
-2) Find the line starting with ```gem "jekyll"```. Comment it out by adding "#" to the start of the line. 
+2) Find the line starting with ```gem "jekyll"``` and comment it out by adding "#" to the start of the line. 
 
-3) Find the ```# gem "github-pages"``` line, just a few lines below that. Uncomment it by deleting the "#".
+3) Find the ```# gem "github-pages"``` line and uncomment it by deleting the "#".
 
-4) Change the github-pages line to match:
+4) Change the github-pages line to add the latest ```<version>``` of the github-pages gem ([listed here](https://pages.github.com/versions/)):
     ```
     gem "github-pages", "~> <version>", group : :jekyll_plugins
    ```
-   ```<version>``` is the latest version of the github-pages gem. You find the versio number in this [list](https://pages.github.com/versions/).
 
-6) Save and close Gemfile.
+5) Save and close Gemfile.
 
-7) Open the _config.yml file in a text editor of your choosing.
+6) Open ```index.markdown```.
 
-8) Find the "baseurl" line. Add the name of your repository between the quotation marks so that the line reads 
-   ```
-    baseurl: "<username>.github.io"
-   ```
-   
-9) Save and close _config.yml.
+7) Delete all of the content, then copy and paste your Markdown formatted resume into the file.
 
-10) Return to the Git Bash command line and run ```bundle install``` to create the proper Gem dependencies for your site.
+8) Save and close ```index.markdown```. This will be your site's homepage.
+
+9) Return to Git Bash and run ```bundle install``` to create the proper Gem dependencies for your site.
 
 
 ### Step 4: Pushing Your Site to GitHub
@@ -110,14 +102,17 @@ _NOTE_: Keep Git Bash open because you will use it again at the end of the next 
    ```
    git push -u origin gh-pages
    ```
+![Megan's resume page](/images/resume.gif)
 
-
-You should now have your resume hosted on its very own static website. Your url should be ```https://<username>.github.io```. Alternatively, you can find the url by going to your GitHub respository and going to Settings > Pages.
+You should now have your resume hosted on its very own static website. Your url should be ```https://<username>.github.io```. Alternatively, you can find the url by going to your GitHub repository and going to Settings > Pages.
 
 
 ## OPTIONAL
 ### Customizing the Theme
 GitHub offers 12 supported Jekyll themes, including the default "Minimal" that your site is already using. You can select a different theme through Settings > Pages > Change theme. Alternatively, many other unsupported themes can be found through search engines. These themes will have instructions on how to add them to your own site.
+
+### Customizing _config.yml
+There are several options for adding extra information to your site in this file, including site title, site description, and your GitHub username. If you would rather not have any of it, simply leave the tags empty. **Warning**: do not comment out any tags in the config file or your site will not render properly.
 
 
 ## MORE RESOURCES
@@ -143,19 +138,17 @@ A big thank you to all of Group 1 for helpful edits and constructive criticism:
 
 ## FAQ
 
-1) Why Markdown?
-
-
-   * Markdown is a handy lightweight markup language with straightforward syntax. It is quickly and easily picked up and applied by nearly everyone and very human-readable. It is far easier and quicker to create a Markdown file and convert it to xml using Jekyll than it is to create something similar with html or xml. It's also one of the most popular lightweight markup languages, so choosing it over anohter lightweight markup language could be considered "future proofing" your material, as it is more likely to be supported for some time.
+#### Why Markdown?
+Markdown is a handy lightweight markup language with straightforward syntax. It is quickly and easily picked up and applied by nearly everyone and very human-readable. It is far easier and quicker to create a Markdown file and convert it to xml using Jekyll than it is to create something similar with html or xml. It's also one of the most popular lightweight markup languages, so choosing it over another lightweight markup language could be considered "future proofing" your material, as it is more likely to be supported for some time.
    
 
-2) Why GitHub rather than Wordpress?
-
-
-  * While both offer free versions of hosting, Wordpress is bloated with extraneous functionality that a lot of basic websites don't need. It relies on PHP and backened databases, which require varying degrees of maintenance and can crash. We are just hosting a simple resume. As Etter points out, static sites are perfect because of their speed, simplicity, portability, and security. And with a distributed version control system (DVCS) like GitHub, managing your site is quick, easy, and portable. Plus, developers prefer DVCSs, so you'll be showing off your knowledge of them.
+#### Why GitHub rather than Wordpress?
+While both offer free versions of hosting, Wordpress is bloated with extraneous functionality that a lot of basic websites don't need. It is a large content management system (CMS), which requires varying degrees of maintenance and utilizes components that can crash. On the other hand, GitHub is a distributed version control system (DVCS). DVCSs, as Etter points out, are exemplary because they have better performance, can be used offline, and easily accommodate one file being worked on simultaneously by several people. Plus, developers prefer DVCSs, so you'll be showing off your knowledge of them. Besides being a better option to host your resume, you're also showing potential employers that you already understand the importance of DVCSs.
 
 
 ## NOTES
-1) Don't worry - you won't have to know or use any Ruby for this project. It is purely necessary to run Jekyll.
-2) Windows is not officially supported by Jekyll, but it can be installed and run with careful "[tweaks](https://jekyllrb.com/docs/installation/windows/)."
-3) '''checkout''' is the git command for switching between branches in your repository.
+1) Windows is not officially supported by Jekyll, but it can be installed and run with careful "[tweaks](https://jekyllrb.com/docs/installation/windows/)."
+2) Don't worry - you won't have to know or use any Ruby for this project. It is purely necessary to run Jekyll.
+3) If any of the folders have a space in the name, you will need to put quotation marks around the folder name (double or single) or else Git Bash will perceive it as extra arguments. Alternatively, you can use a backslash before the space, such that ```New Folder``` would be ```New\ Folder```.
+4) ```checkout``` is the git command for switching between branches in your repository.
+5) The period at the end is important because it denotes the current directory. If you forget it, you will get "Error: You must specify a path."
