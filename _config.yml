@@ -21,7 +21,9 @@
 title: Megan Galbraith
 email: meg_galbraith@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- <a href="mailto:meg_galbraith@hotmail.com">meg_galbraith@hotmail.com</a> | <a href="www.github.com/galbrame">www.github.com/galbrame</a> | <a href="www.linkedin.com/in/megan-galbraith">www.linkedin.com/in/megan-galbraith</a>
+ <a href="mailto:meg_galbraith@hotmail.com">meg_galbraith@hotmail.com</a>
+ <a href="www.github.com/galbrame">www.github.com/galbrame</a>
+ <a href="www.linkedin.com/in/megan-galbraith">www.linkedin.com/in/megan-galbraith</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
