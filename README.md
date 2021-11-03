@@ -59,7 +59,7 @@ For this project, you will need:
 7) Delete the ```_posts``` and ```about.markdown``` from your new repository folder. They will just add clutter to your final product. 
 
 _NOTE_: Keep Git Bash open because you will use it again soon.
-<br>
+
 
 ### Step 3: Prep Your Site for GitHub
 
