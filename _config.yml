@@ -30,7 +30,7 @@ twitter_username:
 github_username:  galbrame
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
 
