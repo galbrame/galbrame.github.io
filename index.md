@@ -1,4 +1,4 @@
-TECHNICAL SKILLS|SOFT SKILLS
+TECHNICAL SKILLS|INTERPERSONAL SKILLS
 ----------------|-----------
 Java|Communication
 html|Teamwork
@@ -40,7 +40,7 @@ __________________
 
 __________________
 ## EDUCATION
-* **University of Manitoba** ~ **2023** (expected)
+* **University of Manitoba** ~ **2023** (anticipated)
   * Bachelor of Science (Computer Science)
 * **University of Manitoba** ~ **2009**
   * Bachelor of Science in Agriculture (Animal Systems)
