@@ -1,4 +1,4 @@
-TECHNICAL SKILLS|INTERPERSONAL SKILLS
+TECHNICAL SKILLS|ESSENTIAL SKILLS
 ----------------|-----------
 Java|Communication
 html|Teamwork
