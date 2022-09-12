@@ -1,11 +1,13 @@
-TECHNICAL SKILLS|ESSENTIAL SKILLS
+TECHNICAL SKILLS|TRANSFERABLE SKILLS
 ----------------|-----------
 Java|Communication
-html|Teamwork
-JavaScript|Leadership
-C/C++|Critical Thinking
-SQL|Time Management
-Visual Basic for Applications|Organized
+HTML|Teamwork
+CSS|Leadership
+JavaScript|Critical Thinking
+C/C++|Time Management
+SQL|Organized
+Python|Self-directed Learning
+
 
 _________________
 ## WORK EXPERIENCE
@@ -32,7 +34,7 @@ __________________
 ## VOLUNTEER EXPERIENCE
 
 ### Web Administrator, _2015 - current_
-* www.oakville-mb.ca
+* [oakville-mb.ca](https://www.oakville-mb.ca)
 * Develop and organize content, update information, contact form liaison, maintain backups, minor graphics editing
 
 ### Seasonal Web Administrator, _2020 & 2021_
@@ -40,7 +42,7 @@ __________________
 
 __________________
 ## EDUCATION
-* **University of Manitoba** ~ **2023** (anticipated)
+* **University of Manitoba** ~ **2023** (expected)
   * Bachelor of Science (Computer Science)
 * **University of Manitoba** ~ **2009**
   * Bachelor of Science in Agriculture (Animal Systems)
