@@ -1,6 +1,6 @@
 # How To Host a Resume on GitHub Pages Using Jekyll & Git Bash
 
-Learn how to take your job search to the next level by hosting and formatting your resume for free using Markdown, Jekyll, and GitHub Pages. Check out the [example page](https://www.galbrame.github.io) to see what your resume could look like! This README will also endeavour to impart some general principles of technical writing (from the perspective of Andrew Etter in _[Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)_) that you can employ in your own projects.
+Learn how to take your job search to the next level by hosting and formatting your resume for free using Markdown, Jekyll, and GitHub Pages. Check out the [example page](https://galbrame.github.io/) to see what your resume could look like! This README will also endeavour to impart some general principles of technical writing (from the perspective of Andrew Etter in _[Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)_) that you can employ in your own projects.
 
 Hosting your own site won't just show off your resume to potential employers - it will show off your technical skills. As Etter extolls, writing webpages in html and xml is onerous at best, at best. Displaying your ability to create a webpage using modern tools like a static site generator and highly adaptable lightweight markup language will set you apart from other candidates. 
 
