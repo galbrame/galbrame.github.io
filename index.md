@@ -1,12 +1,9 @@
-TECHNICAL SKILLS|TRANSFERABLE SKILLS
-----------------|-----------
-Java|Communication
-HTML|Teamwork
-CSS|Leadership
-JavaScript|Critical Thinking
-C/C++|Time Management
-SQL|Organized
-Python|Self-directed Learning
+## SKILLS
+
+* **Languages**: Java, C, Python, HTML, CSS, SQL, JavaScript
+* **Frameworks/Tools**: Jekyll, Django, Android Studio, git, GitHub, VS Code
+* **Testing**: JUnit, Mockito, Espresso, unittest (Python)
+* **Transferrable**: Communication, Teamwork, Leadership, Critical Thinking, Problem Solving, Time Management, Self-directed Learning
 
 
 __________________
@@ -19,14 +16,19 @@ __________________
 _________________
 ## PROJECTS
 
+### Timeseries Data Discovery Tool, _2023_
+_Industrial Project course, partnered with FarmLink_
+* Team captain for a proof-of-concept project to search and visualize timeseries datasets from different sources, some with different datapoints
+* Tech: Python, Django, HTML, CSS, JavaScript
+
 ### [roboberry Pi](https://github.com/galbrame/roboberryPi), _2022_
-_Computer Networking Final Project_
+_Computer Networking course final project_
 * An IoT project to control a small vehicle (lights, direction, speed) over a LAN using a client-server model
 * Tech: Python, shell scripts, HTML, CSS, JavaScript, Raspberry Pi
 
 ### [Web Administrator](https://www.oakville-mb.ca), _2015 - current_
 _Oakville Community Club, Oakville, MB_
-* Migrated old site content to new site, create and manage new content, run updates, maintain content backups, contact form liaison
+* Migrated old site content to new site, create and manage new content, run updates, maintain content backups, contact form liaison, occasional styling overrides
 * Tech: HTML, CSS, Wordpress (for contributor usability)
 
 
