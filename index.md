@@ -1,7 +1,7 @@
 ## SKILLS
 
 * **Languages**: Java, C, Python, HTML, CSS, SQL, JavaScript
-* **Frameworks/Tools**: Jekyll, Django, Android Studio, git, GitHub, VS Code
+* **Frameworks/Tools**: Jekyll, Django, Chart.js, Android Studio, git, GitHub, VS Code
 * **Testing**: JUnit, Mockito, Espresso, unittest (Python)
 * **Transferrable**: Communication, Teamwork, Leadership, Critical Thinking, Problem Solving, Time Management, Self-directed Learning
 
@@ -16,10 +16,10 @@ __________________
 _________________
 ## PROJECTS
 
-### Timeseries Data Discovery Tool, _2023_
+### Time Series Data Discovery Tool, _2023_
 _Industrial Project course, partnered with FarmLink_
-* Team captain for a proof-of-concept project to search and visualize timeseries datasets from different sources, some with different datapoints
-* Tech: Python, Django, HTML, CSS, JavaScript
+* Team captain for a proof-of-concept project to search and visualize massive (10^6 data points) time series datasets from different sources, some with different attributes
+* Tech: Python, Django, Chart.js, HTML, CSS, JavaScript
 
 ### [roboberry Pi](https://github.com/galbrame/roboberryPi), _2022_
 _Computer Networking course final project_
@@ -57,4 +57,4 @@ _Feedlot Health Management Services, Okotoks, AB_
 _________________
 ## ACHIEVEMENTS
 **University of Manitoba Gold Medal** (2009)
-* _Highest academic standing in Faculty of Agricultural and Food Sciences_
+* _Highest academic standing in graduating class of Faculty of Agricultural and Food Sciences_
