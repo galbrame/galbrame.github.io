@@ -1,22 +1,55 @@
 ## SKILLS
 
-* **Languages**: C, C++, Python, Java, JavaScript, HTML, CSS, SQL
-* **Frameworks/Tools**: git, Visual Studio, Jekyll, Django, Android Studio, git bash
-* **Testing**: JUnit, Mockito, Espresso, unittest (Python)
+* **Languages**: C, C++, C#, Python, JavaScript/TypeScript, HTML, CSS, SQL
+* **Frameworks**: Vue.js, Tailwind CSS, ASP.NET, Jekyll, Django
+* **Tools**: git, GitHub/BitBucket, Docker, Postman, AWS
+* **Testing**: Moq/xUnit, JUnit, Mockito, unittest
 * **Transferrable**: Communication, Teamwork, Leadership, Critical Thinking, Problem Solving, Time Management, Self-directed Learning
 
 
 __________________
 ## EDUCATION
 * **University of Manitoba**
-  * Bachelor of Science, **Computer Science** (2023)
-  * Bachelor of Science, **Agriculture** (2009)
+  * Bachelor of Science, **Computer Science**
+  * Bachelor of Science, **Agriculture**
+
+
+_________________
+## WORK EXPERIENCE
+
+### Full Stack Developer, _Feb 2024 - Nov 2024_
+_JCA Technologies - A PTx Trimble Company, Winnipeg, MB_
+* Ensured project owner’s satisfaction by designing and implementing features for Vue based data visualization and reporting web application, as per specifications 
+* Refactored existing and created new API endpoints through ASP.NET MVC and AWS API Gateway, including adding policy-based authorization through Cognito attributes and user pool groups 
+* Streamlined user-generated reports by creating web UI and AWS lambda cron job (using AWS EventBridge Scheduler) to set up automatic data report emails 
+* Consistently positive feedback from manager and teammates on code thoroughness and ability to understand and grasp new concepts quickly
+
+### Develop at Ubisoft Mentee, _Oct 2023 - Jan 2024_
+_Ubisoft Winnipeg, Winnipeg, MB_
+* Created a [top-down casual runner game](https://youtu.be/tchyZzhxmv4) in C++ for Windows, using provided drawing and sound API 
+* Employed axis-aligned bounding boxes to detect game object collisions with different parts of game sprites to provide different gameplay mechanics 
+* Implemented very basic enemy sprite room navigation and player tracking 
+* Achieved stretch goals of completing player inventory management system and in-game items that aid the player through speed boosts and NPC obstacles 
+
+### Career Break to Start Family, _Aug 2015 - Sept 2018_
+* Learned basic web design (HTML, CSS, JavaScript) and built websites for family and friends
+* Redesigned and then accepted management of community website
+* Refined active listening skills and emotional self-regulation in high stress situations
+* Returned to university in Sept 2018 to pursue formal computer science education
+
+### Research Associate, _Oct 2012 - Aug 2015_
+_DuPont Pioneer (now Corteva), Carman, MB_
+* Developed Excel macros in Visual Basic for Applications (VBA) to streamline data collection tasks
+* Refactored (VBA) and integrated another station’s Microsoft Access user interface into our seed fill process to increase seed fill time by 30% and reduce refill and missed packet errors
+* Researched and developed Microsoft Access user interface for seed inventory management and reporting (VBA) to improve inventory efficiency and accuracy
+* Supported these programs through regular testing, debugging, and feature additions
+* Led teams of 5 to 15 students and temp workers on data collection, seed management, and hand-pollination tasks
 
 
 _________________
 ## PROJECTS
 
-### [Badger2040 Spaceship Game](https://github.com/galbrame/badger2040-spaceship), _2023_
+### [eInk Spaceship Game](https://github.com/galbrame/badger2040-spaceship), _2023_
 _Personal project_
 * Simple obstacle avoidance style game built on a Badger 2040
 * Spaceship scores a point for every randomly generated asteroid it avoids until collision
@@ -39,44 +72,6 @@ _Computer Graphics 1 final assignment_
 * Perpetually moving robot must avoid angry bees to stay alive
 * 3D graphics project focused more on transformations and camera perspective than playability
 * Tech stack: Processing3, Java, git
-
-
-_________________
-## WORK EXPERIENCE
-
-### Freelance Web Designer, _July 2023_
-_Simplifi GPS, Oakville, MB_
-* Gathered client requirements and prototyped different web content layouts
-* Built single page website and contact form using HTML, CSS, and JavaScript
-* Deployed page through client's WordPress as a custom page template
-* Supplied client with thorough documentation for adding and changing content
-
-### Career Break to Start Family, _Aug 2015 - Sept 2018_
-* Learned basic web design (HTML, CSS, JavaScript) and built websites for family and friends
-* Redesigned and then accepted management of community website
-* Refined active listening skills and emotional self-regulation in high stress situations
-* Returned to university in Sept 2018 to pursue formal computer science education
-
-### Research Associate, _Oct 2012 - Aug 2015_
-_DuPont Pioneer (now Corteva), Carman, MB_
-* Developed Excel macros in Visual Basic for Applications (VBA) to streamline data collection tasks
-* Refactored (VBA) and integrated another station’s Microsoft Access user interface into our seed fill process to increase seed fill time by 30% and reduce refill and missed packet errors
-* Researched and developed Microsoft Access user interface for seed inventory management and reporting (VBA) to improve inventory efficiency and accuracy
-* Supported these programs through regular testing, debugging, and feature additions
-* Led teams of 5 to 15 students and temp workers on data collection, seed management, and hand-pollination tasks
-
-### Customer Service Representative, _Jan 2012 - Sept 2012_
-_Crop Production Services (now Nutrien), Ponoka, AB_
-*	Provided general IT support to station staff, researching solutions if answer unknown
-*	Analyzed problem and explored solutions to fix unresponsive all-in-one printer, saving station $900
-*	Maintained and audited inventory tracking database, managed customer database
-*	Cultivated positive customer and team member relationships for constructive work environment
-
-### Research Project Assistant, _Mar 2010 - Apr 2011_
-_Feedlot Health Management Services, Okotoks, AB_
-*	Collected, entered, and managed trial data on cattle health and feeding
-*	Queried trial data from Microsoft Access and prepared Excel pivot tables for analysis
-*	Collaborated with research teams, clients, and feedlot staff
 
 
 _________________
