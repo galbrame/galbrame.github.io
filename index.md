@@ -4,6 +4,15 @@
   }
 </style>
 
+
+## Team-Oriented Full Stack Developer Seeking New Challenge
+
+<p style="text-align: center;">Enthusiastic full stack developer with previous degree in Agriculture and experience in web applications and IoT.
+Most passionate about creating technologies to improve competitiveness and economically viability of smaller
+producers in the ever-changing agri-industry landscape.</p>
+
+
+__________________
 ## SKILLS
 
 * **Languages**: C, C++, C#, Python, JavaScript/TypeScript, HTML, CSS, SQL
@@ -82,8 +91,8 @@ _Computer Graphics 1 final assignment_
 
 _________________
 ## ACHIEVEMENTS
-**Degree with Distinction** (2023)
+### Degree with Distinction, 2023
 * _Graduation GPA of 4.07 out of 4.50 (minimum 3.80 required for Distinction)_
 
-**University of Manitoba Gold Medal** (2009)
+### University of Manitoba Gold Medal, 2009
 * _Highest academic standing in graduating class of Faculty of Agricultural and Food Sciences_
