@@ -5,7 +5,7 @@
 </style>
 
 
-<h2 style="padding-top: 10px; text-align: center;">Team-Oriented Full Stack Developer Seeking New Challenge</h1>
+<h2 style="padding-top: 10px; text-align: center;">Team-Oriented Full Stack Developer Seeking New Challenge</h2>
 
 <p style="padding-bottom: 20px; text-align: center;">Enthusiastic full stack developer with previous degree in Agriculture and experience in web applications and IoT. Most passionate about creating technologies to improve competitiveness and economically viability of smaller
 producers in the ever-changing agri-industry landscape.</p>
