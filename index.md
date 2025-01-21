@@ -1,3 +1,9 @@
+<style>
+  h3 {
+    padding-bottom: 0;
+  }
+</style>
+
 ## SKILLS
 
 * **Languages**: C, C++, C#, Python, JavaScript/TypeScript, HTML, CSS, SQL
@@ -18,7 +24,7 @@ _________________
 ## WORK EXPERIENCE
 
 ### Full Stack Developer, _Feb 2024 - Nov 2024_
-<p style="padding:0">_JCA Technologies - A PTx Trimble Company, Winnipeg, MB_</p>
+_JCA Technologies - A PTx Trimble Company, Winnipeg, MB_
 * Ensured project owner’s satisfaction by designing and implementing features for Vue based data visualization and reporting web application, as per specifications 
 * Refactored existing and created new API endpoints through ASP.NET MVC and AWS API Gateway, including adding policy-based authorization through Cognito attributes and user pool groups 
 * Streamlined user-generated reports by creating web UI and AWS lambda cron job (using AWS EventBridge Scheduler) to set up automatic data report emails 
