@@ -2,12 +2,20 @@
   h3 {
     margin-bottom: 0;
   }
+  .objective-header {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .objective-p {
+    padding-bottom: 20px;
+    text-align: center;
+  }
 </style>
 
 
-<h2 style="padding-top: 10px; text-align: center;">Team-Oriented Developer Seeking New Challenge</h2>
+<h2 class="objective-header">Team-Oriented Developer Seeking New Challenge</h2>
 
-<p style="padding-bottom: 20px; text-align: center;">Enthusiastic full stack developer with previous degree in Agriculture and experience in web applications and IoT. Most passionate about creating technologies to improve competitiveness and economical viability of smaller
+<p class="objective-p">Enthusiastic full stack developer with previous degree in Agriculture and experience in web applications and IoT. Most passionate about creating technologies to improve competitiveness and economical viability of smaller
 producers in the ever-changing agri-industry landscape.</p>
 
 
@@ -34,7 +42,7 @@ _________________
 ### Full Stack Developer, _Feb 2024 - Nov 2024_
 _JCA Technologies - A PTx Trimble Company, Winnipeg, MB_
 * Ensured project owner’s satisfaction by designing and implementing features for Vue based data visualization and reporting web application, as per specifications 
-* Refactored existing and created new API endpoints through ASP.NET MVC and AWS API Gateway, including adding policy-based authorization through Cognito attributes and user pool groups 
+* Refactored existing and created new API endpoints through ASP.NET Core and AWS API Gateway, including adding policy-based authorization through Cognito attributes and user pool groups 
 * Streamlined user-generated reports by creating web UI and AWS lambda cron job (using AWS EventBridge Scheduler) to set up automatic data report emails 
 * Consistently positive feedback from manager and teammates on code thoroughness and ability to understand and grasp new concepts quickly
 
@@ -90,8 +98,11 @@ _Computer Graphics 1 final assignment_
 
 _________________
 ## ACHIEVEMENTS
-### Degree with Distinction, 2023
-* _Graduation GPA of 4.07 out of 4.50 (minimum 3.80 required)_
 
-### University of Manitoba Gold Medal, 2009
-* _Highest academic standing in graduating class of Faculty of Agricultural and Food Sciences_
+### Degree with Distinction
+_University of Manitoba, 2023_
+Graduation GPA of 4.07 out of 4.50 (minimum 3.80 required)
+
+### University of Manitoba Gold Medal
+_University of Manitoba, 2009_
+Highest academic standing in graduating class of Faculty of Agricultural and Food Sciences
