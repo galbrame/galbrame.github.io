@@ -100,11 +100,9 @@ _________________
 ## ACHIEVEMENTS
 
 ### Degree with Distinction
-_University of Manitoba, 2023_
-
+_University of Manitoba, 2023_<br />
 Graduation GPA of 4.07 out of 4.50 (minimum 3.80 required)
 
 ### University of Manitoba Gold Medal
-_University of Manitoba, 2009_
-
+_University of Manitoba, 2009_<br />
 Highest academic standing in graduating class of Faculty of Agricultural and Food Sciences
