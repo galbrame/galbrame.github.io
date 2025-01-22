@@ -5,9 +5,9 @@
 </style>
 
 
-<h2 style="padding-top: 10px; text-align: center;">Team-Oriented Full Stack Developer Seeking New Challenge</h2>
+<h2 style="padding-top: 10px; text-align: center;">Team-Oriented Developer Seeking New Challenge</h2>
 
-<p style="padding-bottom: 20px; text-align: center;">Enthusiastic full stack developer with previous degree in Agriculture and experience in web applications and IoT. Most passionate about creating technologies to improve competitiveness and economically viability of smaller
+<p style="padding-bottom: 20px; text-align: center;">Enthusiastic full stack developer with previous degree in Agriculture and experience in web applications and IoT. Most passionate about creating technologies to improve competitiveness and economical viability of smaller
 producers in the ever-changing agri-industry landscape.</p>
 
 
@@ -40,24 +40,24 @@ _JCA Technologies - A PTx Trimble Company, Winnipeg, MB_
 
 ### Develop at Ubisoft Mentee, _Oct 2023 - Jan 2024_
 _Ubisoft Winnipeg, Winnipeg, MB_
-* Created a [top-down casual runner game](https://youtu.be/tchyZzhxmv4) in C++ for Windows, using provided drawing and sound API 
-* Employed axis-aligned bounding boxes to detect game object collisions with different parts of game sprites to provide different gameplay mechanics 
+* Created a [top-down casual runner game](https://youtu.be/tchyZzhxmv4) in C++ for Windows using bare bones API and object-oriented programming (OOP)
+* Developed multiple gameplay mechanics through axis-aligned bounding boxes to detect collisions of different parts of playable, non-playable, and environment game object sprites 
 * Implemented very basic enemy sprite room navigation and player tracking 
 * Achieved stretch goals of completing player inventory management system and in-game items that aid the player through speed boosts and NPC obstacles 
 
 ### Career Break to Start Family, _Aug 2015 - Sept 2018_
 * Learned basic web design (HTML, CSS, JavaScript) and built websites for family and friends
-* Redesigned and then accepted management of community website
+* Redesigned and then accepted management of community Wordpress website
 * Refined active listening skills and emotional self-regulation in high stress situations
 * Returned to university in Sept 2018 to pursue formal computer science education
 
 ### Research Associate, _Oct 2012 - Aug 2015_
 _DuPont Pioneer (now Corteva), Carman, MB_
 * Developed Excel macros in Visual Basic for Applications (VBA) to streamline data collection tasks
-* Refactored (VBA) and integrated another station’s Microsoft Access user interface into our seed fill process to increase seed fill time by 30% and reduce refill and missed packet errors
+* Refactored (VBA) and integrated another station’s Microsoft Access user interface into our seed fill process to increase seed fill speed by 30% and reduce packaging errors
 * Researched and developed Microsoft Access user interface for seed inventory management and reporting (VBA) to improve inventory efficiency and accuracy
-* Supported these programs through regular testing, debugging, and feature additions
-* Led teams of 5 to 15 students and temp workers on data collection, seed management, and hand-pollination tasks
+* Provided preliminary nursery trials data analysis to simplify breeder's line selection work flow
+* Led teams of 5 to 15 students and temp workers on data collection, seed management, hand-pollination tasks, and harvest tasks
 
 
 _________________
@@ -91,7 +91,7 @@ _Computer Graphics 1 final assignment_
 _________________
 ## ACHIEVEMENTS
 ### Degree with Distinction, 2023
-* _Graduation GPA of 4.07 out of 4.50 (minimum 3.80 required for Distinction)_
+* _Graduation GPA of 4.07 out of 4.50 (minimum 3.80 required)_
 
 ### University of Manitoba Gold Medal, 2009
 * _Highest academic standing in graduating class of Faculty of Agricultural and Food Sciences_
